@@ -1,0 +1,116 @@
+/*Colors and Fonts*/
+
+body {
+background:#F7F7FA ;
+color: rgb(50,50,50);
+font-size: 16px ;
+font-family: 'Noto Sans', sans-serif;
+}
+
+h1, h2 {
+	color: #FC5200;
+	font-weight: lighter; 
+	font-family: 'Wix Madefor Display', sans-serif;
+}
+
+h1{
+	font-size: 48px;
+}
+
+h2{
+	font-size: 30px;
+}
+
+a{
+	text-decoration: none;
+}
+
+.container{
+	width: 700px;
+	margin: 40px auto;
+	text-align: center;
+}
+
+.card-white{
+	background: white;
+	padding: 40px;
+	margin: 20px 0px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+	border-radius: 4px;
+}
+.btn-orange{
+	background-color: #FC5200;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 4px;
+	transition: color 0.3s ease;
+}
+.btn-orange:hover{
+color: #FC5200;
+background-color: white;
+border:2px solid #FC5200;
+transition: color 0.3s ease;
+}
+
+.img-circle{
+	border-radius: 50%;
+}
+
+.img-rect {
+ 	width: 400px;
+ 	height:auto;
+ 	border-radius: 2px;
+ 	box-shadow: 0px 10px 30px rgba(0,0,0,0.3);
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+.list-inline li{
+	display: inline;
+	padding: 20px;
+}
+.list-inline i{
+	font-size: 40px;
+}
+#introduction p{
+	margin-bottom: 50px;
+}
+#strava{
+	color: rgb(180,180,180);
+}
+#strava:hover{
+	color:#FC5200; 
+}
+#linkedin{
+	color: rgb(180,180,180);
+}
+#linkedin:hover{
+	color: #0A66C2;
+}
+}
+.text-justify{
+	text-align: justify;
+}
+.text-centered {
+	text-align: center;
+}
+
+@media(max-width: 760px) {
+	.container{
+		width: 480px;
+	}
+	.img-rect{
+		width: 350px;
+	}
+}
+
+@media(max-width: 570px) {
+	.container{
+		width: 400px;
+	}
+	.img-rect{
+		width: 300px;
+	}
+}
